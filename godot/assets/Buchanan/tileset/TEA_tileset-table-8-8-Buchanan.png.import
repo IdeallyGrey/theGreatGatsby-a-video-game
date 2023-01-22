@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/TEA_tileset-table-8-8-TomBuchanan.png-16a02820ffd2c93bce3f0eab0d5736eb.stex"
+path="res://.import/TEA_tileset-table-8-8-Buchanan.png-6c375eabcb29efb135a393ccbd0a8379.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tileset/TEA_tileset-table-8-8-TomBuchanan.png"
-dest_files=[ "res://.import/TEA_tileset-table-8-8-TomBuchanan.png-16a02820ffd2c93bce3f0eab0d5736eb.stex" ]
+source_file="res://assets/Buchanan/tileset/TEA_tileset-table-8-8-Buchanan.png"
+dest_files=[ "res://.import/TEA_tileset-table-8-8-Buchanan.png-6c375eabcb29efb135a393ccbd0a8379.stex" ]
 
 [params]
 

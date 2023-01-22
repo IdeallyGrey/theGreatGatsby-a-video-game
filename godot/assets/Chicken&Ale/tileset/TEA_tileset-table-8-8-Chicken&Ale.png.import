@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/TEA_tileset-table-8-8-Chicken&Ale.png-8e1af77878d3af396dccad12defb9073.stex"
+path="res://.import/TEA_tileset-table-8-8-Chicken&Ale.png-07b7e221d50103c1dad31ad960d6a146.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tileset/TEA_tileset-table-8-8-Chicken&Ale.png"
-dest_files=[ "res://.import/TEA_tileset-table-8-8-Chicken&Ale.png-8e1af77878d3af396dccad12defb9073.stex" ]
+source_file="res://assets/Chicken&Ale/tileset/TEA_tileset-table-8-8-Chicken&Ale.png"
+dest_files=[ "res://.import/TEA_tileset-table-8-8-Chicken&Ale.png-07b7e221d50103c1dad31ad960d6a146.stex" ]
 
 [params]
 

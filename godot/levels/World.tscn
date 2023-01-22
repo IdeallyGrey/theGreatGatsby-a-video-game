@@ -1,13 +1,39 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://characters/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://levels/Pine.tscn" type="PackedScene" id=2]
 
-[node name="World" type="Node2D"]
-
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
-polygon = PoolVector2Array( 0, 0, 40, 0, 24, 40, 40, 48, 16, 72, 24, 104, 112, 96, 160, 64, 176, 40, 136, 32, 136, 56, 120, 40, 136, 24, 152, 24, 168, 32, 128, 8, 104, 0, 192, 0, 192, 120, 0, 120 )
+[node name="World" type="YSort"]
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 88, 32 )
+position = Vector2( 80, 48 )
+
+[node name="Pine" parent="." instance=ExtResource( 2 )]
+position = Vector2( 56, 64 )
+
+[node name="Pine2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 176, 24 )
+
+[node name="Pine3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 24, 32 )
+
+[node name="Pine4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 144, 32 )
+
+[node name="Pine5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 40, 96 )
+
+[node name="Pine6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 136, 104 )
+
+[node name="Pine7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 88, 96 )
+
+[node name="Pine8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 112, 16 )
+
+[node name="Pine9" parent="." instance=ExtResource( 2 )]
+position = Vector2( 16, 72 )
