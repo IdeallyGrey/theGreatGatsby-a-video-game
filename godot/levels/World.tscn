@@ -1,31 +1,13 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://assets/sprites/character.png" type="Texture" id=2]
-[ext_resource path="res://characters/Player.gd" type="Script" id=3]
-
-[sub_resource type="CapsuleShape2D" id=1]
-radius = 4.0
-height = 2.0
+[ext_resource path="res://characters/Player.tscn" type="PackedScene" id=1]
 
 [node name="World" type="Node2D"]
-
-[node name="Player" type="KinematicBody2D" parent="."]
-position = Vector2( 94, 49 )
-script = ExtResource( 3 )
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="Sprite" type="Sprite" parent="Player"]
-texture = ExtResource( 2 )
-hframes = 16
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
-position = Vector2( 1, 9 )
-rotation = -1.5708
-shape = SubResource( 1 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
 polygon = PoolVector2Array( 0, 0, 40, 0, 24, 40, 40, 48, 16, 72, 24, 104, 112, 96, 160, 64, 176, 40, 136, 32, 136, 56, 120, 40, 136, 24, 152, 24, 168, 32, 128, 8, 104, 0, 192, 0, 192, 120, 0, 120 )
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 88, 32 )
