@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/TEA_tileset-table-8-8-ORIGINAL.png-d1ebcd0d98d88afdda63ec277c31a039.stex"
+path="res://.import/TEA_tileset-table-8-8.png-d17c3f867a71fdd9a846f1445d988c5b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Original/tileset/TEA_tileset-table-8-8-ORIGINAL.png"
-dest_files=[ "res://.import/TEA_tileset-table-8-8-ORIGINAL.png-d1ebcd0d98d88afdda63ec277c31a039.stex" ]
+source_file="res://assets/tileset/TEA_tileset-table-8-8.png"
+dest_files=[ "res://.import/TEA_tileset-table-8-8.png-d17c3f867a71fdd9a846f1445d988c5b.stex" ]
 
 [params]
 
