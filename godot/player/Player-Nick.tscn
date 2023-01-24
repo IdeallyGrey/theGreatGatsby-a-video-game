@@ -1,7 +1,8 @@
-[gd_scene load_steps=27 format=2]
+[gd_scene load_steps=28 format=2]
 
 [ext_resource path="res://player/Player-Nick.gd" type="Script" id=1]
 [ext_resource path="res://assets/sprites/character.png" type="Texture" id=2]
+[ext_resource path="res://world/Reach.tscn" type="PackedScene" id=3]
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 4.0
@@ -354,3 +355,5 @@ active = true
 parameters/playback = SubResource( 17 )
 parameters/Idle/blend_position = Vector2( 0, 0 )
 parameters/Walk/blend_position = Vector2( 0, 0 )
+
+[node name="Reach" parent="." instance=ExtResource( 3 )]
