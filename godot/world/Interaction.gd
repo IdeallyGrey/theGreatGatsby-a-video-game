@@ -11,8 +11,8 @@ func _process(_delta):
 	if touchingAreas:		# Am I touching something?
 		if not interacting:		# Am I already interacting with it?
 			if Input.get_action_strength("ui_accept"):		# Do I want to interact?
-				print("Interacted!")
 				interacting = true
+				ActiveDialog.text = "!!!"
 		else:
 			if not Input.get_action_strength("ui_accept"):		# Am I done interacting?
 				interacting = false
