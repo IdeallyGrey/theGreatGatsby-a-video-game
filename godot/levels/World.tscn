@@ -73,9 +73,9 @@ position = Vector2( 39, 99 )
 [node name="PlayerCamera" parent="." instance=ExtResource( 4 )]
 
 [node name="TopLeft" parent="PlayerCamera/Limits" index="0"]
-position = Vector2( -136, -88 )
+position = Vector2( -72, -56 )
 
 [node name="BottomRight" parent="PlayerCamera/Limits" index="1"]
-position = Vector2( 376, 216 )
+position = Vector2( 264, 152 )
 
 [editable path="PlayerCamera"]
