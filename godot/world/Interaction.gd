@@ -1,18 +1,14 @@
 extends Area2D
 
+export var contents = ""
 var touchingAreas
 var interacting = false
-
-func _ready():
-	pass # Replace with function body.
 
 func _process(_delta):
 	touchingAreas = get_overlapping_areas()
 	if touchingAreas:		# Am I touching something?
-		if not interacting:		# Am I already interacting with it?
-			if Input.get_action_strength("ui_accept"):		# Do I want to interact?
-				interacting = true
-				ActiveDialog.text = "!!!"
-		else:
-			if not Input.get_action_strength("ui_accept"):		# Am I done interacting?
-				interacting = false
+		if not interacting and Input.get_action_strength("ui_accept"):		# Do I want to start interacting?
+			interacting = true
+			Dialog.dialogText = contents
+		elif interacting and not Input.get_action_strength("ui_accept"):		# Am I done interacting?
+			interacting = false
