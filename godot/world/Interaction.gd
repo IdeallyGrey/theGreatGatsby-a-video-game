@@ -1,6 +1,6 @@
 extends Area2D
 
-export var contents = []
+export var contents = PoolStringArray()
 var page = 0
 var totalPages = 0
 

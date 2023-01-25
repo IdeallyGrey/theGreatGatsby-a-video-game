@@ -36,7 +36,7 @@ remote_path = NodePath("../../../PlayerCamera")
 position = Vector2( 38, 27 )
 
 [node name="Interaction" parent="YSort/YSort/Pine" instance=ExtResource( 6 )]
-contents = [ "You're looking at a tree", "Still just a tree", "Tree", "101% a tree", "Yup. Tree.", "Yes. A tree.", "You good yet? This is in fact a tree", "...", "Meow" ]
+contents = PoolStringArray( "Epstein didn\'t kill himself." )
 
 [node name="Pine9" parent="YSort/YSort" instance=ExtResource( 2 )]
 position = Vector2( 84, 116 )
@@ -50,6 +50,9 @@ position = Vector2( 24, 60 )
 [node name="Pine2" parent="YSort/YSort" instance=ExtResource( 2 )]
 position = Vector2( 77, 6 )
 
+[node name="Interaction" parent="YSort/YSort/Pine2" instance=ExtResource( 6 )]
+contents = PoolStringArray( "This took forever to set up." )
+
 [node name="Pine4" parent="YSort/YSort" instance=ExtResource( 2 )]
 position = Vector2( 135, 114 )
 
@@ -58,6 +61,9 @@ position = Vector2( 156, 27 )
 
 [node name="Pine6" parent="YSort/YSort" instance=ExtResource( 2 )]
 position = Vector2( 117, 9 )
+
+[node name="Interaction" parent="YSort/YSort/Pine6" instance=ExtResource( 6 )]
+contents = PoolStringArray( "I\'m a tree and I can say stuff...", "Don\'t question it.", "I\'m watching you.", "-_-" )
 
 [node name="Pine7" parent="YSort/YSort" instance=ExtResource( 2 )]
 position = Vector2( 39, 99 )
