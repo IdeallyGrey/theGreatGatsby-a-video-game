@@ -35,9 +35,6 @@ remote_path = NodePath("../../../PlayerCamera")
 [node name="Pine" parent="YSort/YSort" instance=ExtResource( 2 )]
 position = Vector2( 38, 27 )
 
-[node name="Interaction" parent="YSort/YSort/Pine" instance=ExtResource( 6 )]
-contents = PoolStringArray( "Epstein didn\'t kill himself." )
-
 [node name="Pine9" parent="YSort/YSort" instance=ExtResource( 2 )]
 position = Vector2( 84, 116 )
 
