@@ -1,14 +1,22 @@
 extends Area2D
 
-export var contents = ""
+export var contents = []
+var page = 0
+var totalPages = 0
+
 var touchingAreas
 var interacting = false
 
 func _process(_delta):
 	touchingAreas = get_overlapping_areas()
-	if touchingAreas:		# Am I touching something?
-		if not interacting and Input.get_action_strength("ui_accept"):		# Do I want to start interacting?
-			interacting = true
-			Dialog.dialogText = contents
-		elif interacting and not Input.get_action_strength("ui_accept"):		# Am I done interacting?
-			interacting = false
+	if Input.is_action_just_pressed("ui_accept") and touchingAreas: # Space hit and touching something
+		var totalPages = contents.size()
+		if Dialog.dialogText == "": # If dialog is blank, goes to first page
+			page = 0
+			
+		if page == totalPages: # When tries going past last page, clears Dialog
+			Dialog.dialogText = ""
+		else: # Moves to next page, sends contents to dialog
+			Dialog.dialogText = contents[page]
+			page += 1
+
