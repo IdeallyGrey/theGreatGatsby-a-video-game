@@ -82,6 +82,72 @@ position = Vector2( 57, 94 )
 [node name="Pine6" parent="YSort-All/YSorts-Other" instance=ExtResource( 5 )]
 position = Vector2( 73, 70 )
 
+[node name="Tree8" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( -15, -26 )
+
+[node name="Tree9" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( 25, -2 )
+
+[node name="Tree10" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( 49, -34 )
+
+[node name="Tree11" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( 57, -10 )
+
+[node name="Tree12" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( -151, -18 )
+
+[node name="Tree13" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( -127, -2 )
+
+[node name="Tree24" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( -151, -202 )
+
+[node name="Tree25" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( 33, -170 )
+
+[node name="Tree14" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( -111, -50 )
+
+[node name="Tree15" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( -79, -82 )
+
+[node name="Tree16" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( -31, -90 )
+
+[node name="Tree28" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( 57, -154 )
+
+[node name="Tree29" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( 65, -202 )
+
+[node name="Tree30" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( -15, -170 )
+
+[node name="Tree17" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( 65, -82 )
+
+[node name="Tree18" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( -47, -114 )
+
+[node name="Tree19" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( -95, -114 )
+
+[node name="Tree20" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( -135, -106 )
+
+[node name="Tree21" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( -135, -66 )
+
+[node name="Tree26" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( -103, -146 )
+
+[node name="Tree27" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( 9, -186 )
+
+[node name="Tree22" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( -36, -8 )
+
 [node name="Pine7" parent="YSort-All/YSorts-Other" instance=ExtResource( 5 )]
 position = Vector2( 19, 84 )
 
@@ -91,7 +157,17 @@ position = Vector2( -71, 90 )
 [node name="Tree7" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
 position = Vector2( 41, 99 )
 
+[node name="Tree23" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( -127, -154 )
+
+[node name="Tree31" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( -119, -194 )
+
+[node name="Tree32" parent="YSort-All/YSorts-Other" instance=ExtResource( 6 )]
+position = Vector2( 41, -130 )
+
 [node name="PlayerCamera" parent="." instance=ExtResource( 1 )]
+visible = false
 position = Vector2( 59, 101 )
 
 [node name="TopLeft" parent="PlayerCamera/Limits" index="0"]
