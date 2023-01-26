@@ -41,6 +41,7 @@ contents = PoolStringArray( "There\'s a path here that goes around the house. ",
 position = Vector2( 95, 58 )
 
 [node name="Player" parent="YSort-All" instance=ExtResource( 4 )]
+position = Vector2( -36, 43 )
 
 [node name="RemoteTransform2D" type="RemoteTransform2D" parent="YSort-All/Player"]
 remote_path = NodePath("../../../PlayerCamera")
@@ -91,9 +92,10 @@ position = Vector2( -71, 90 )
 position = Vector2( 41, 99 )
 
 [node name="PlayerCamera" parent="." instance=ExtResource( 1 )]
+position = Vector2( 59, 101 )
 
 [node name="TopLeft" parent="PlayerCamera/Limits" index="0"]
-position = Vector2( -64, -432 )
+position = Vector2( -64, -440 )
 
 [node name="BottomRight" parent="PlayerCamera/Limits" index="1"]
 position = Vector2( 168, 161 )
