@@ -10,7 +10,7 @@ var interacting = false
 func _process(_delta):
 	touchingAreas = get_overlapping_areas()
 	if Input.is_action_just_pressed("ui_accept") and touchingAreas: # Space hit and touching something
-		var totalPages = contents.size()
+		totalPages = contents.size()
 		if Dialog.dialogText == "": # If dialog is blank, goes to first page
 			page = 0
 			

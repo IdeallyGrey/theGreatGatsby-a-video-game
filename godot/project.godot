@@ -18,8 +18,8 @@ config/icon="res://icon.png"
 
 [autoload]
 
-Dialog="*res://world/Dialog.gd"
-Interaction="*res://world/Interaction.gd"
+Dialog="*res://system/Dialog.gd"
+Interaction="*res://system/Interaction.gd"
 
 [display]
 
