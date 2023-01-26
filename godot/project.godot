@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="theGreatGatsby"
-run/main_scene="res://levels/World.tscn"
+run/main_scene="res://levels/Level2-TomBuchanan.tscn"
 boot_splash/image="res://icon.png"
 boot_splash/bg_color=Color( 0.141176, 0.141176, 0.141176, 1 )
 config/icon="res://icon.png"

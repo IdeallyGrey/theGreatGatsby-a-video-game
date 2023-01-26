@@ -2,7 +2,7 @@
 
 [ext_resource path="res://PlayerCamera.tscn" type="PackedScene" id=1]
 [ext_resource path="res://world/TileMap.tscn" type="PackedScene" id=2]
-[ext_resource path="res://world/DialogBox.tscn" type="PackedScene" id=3]
+[ext_resource path="res://system/DialogBox.tscn" type="PackedScene" id=3]
 [ext_resource path="res://player/Player-Nick.tscn" type="PackedScene" id=4]
 
 [node name="LEVEL-TEMPLATE" type="Node2D"]
@@ -13,6 +13,8 @@
 visible = false
 
 [node name="TileMap" parent="." instance=ExtResource( 2 )]
+
+[node name="Item-less Interactions" type="Node2D" parent="."]
 
 [node name="YSort-All" type="YSort" parent="."]
 position = Vector2( 95, 58 )
