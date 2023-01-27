@@ -4,7 +4,7 @@
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 5.0
-height = 4.0
+height = 2.0
 
 [node name="Tree" type="StaticBody2D"]
 
